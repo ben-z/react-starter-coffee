@@ -1,0 +1,20 @@
+// @import "lib/normalize";
+// @import "lib/mixins/media-query";
+// @import "lib/mixins/clearfix";
+// @import "lib/mixins/container";
+//
+// $base-font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-weight: 400;
+// $medium-font-family: HelveticaNeue-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $medium-font-weight: 500;
+// $nav-bar-menu-item-font-size: 15px;
+// $light-font-family: HelveticaNeue-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $light-font-weight: 500;
+//
+// body {
+//     font-family: $base-font-family;
+//     background-color: $purple-main;
+//     font-size:0; // Reset font size so display-block has no gap between elements
+// }
+
+@import "../../node_modules/basscss-sass/defaults";

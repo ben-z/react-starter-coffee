@@ -1,2 +1,2 @@
-# React-Express-Starter-Template
-Quickly start a ReactJS project with Express and server-side rendering.
+# React-Express Starter Template
+I needed a simple way to start my full-stack React-Express-Mongodb projects, so I made myself this template.
