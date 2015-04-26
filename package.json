@@ -1,8 +1,11 @@
 {
-  "name": "React-Express-Starter-Template",
+  "name": "react-starter-coffee",
   "version": "0.0.1",
-  "description": "Quickly start a ReactJS project with Express and server-side rendering.",
-  "repository": "https://github.com/ben-z/react-starter-coffee",
+  "description": "[Coffeescript] Quickly start a ReactJS project with Express and server-side rendering.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-z/react-starter-coffee"
+  },
   "main": "build/server.js",
   "scripts": {
     "start": "node build/server.js"
@@ -26,5 +29,20 @@
     "gulp-sass": "^1.3.3",
     "gulp-util": "^3.0.4",
     "gulp-yaml": "^0.2.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ben-z/react-starter-coffee/issues"
+  },
+  "homepage": "https://github.com/ben-z/react-starter-coffee",
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Coffeescript",
+    "ExpressJS",
+    "Express",
+    "NodeJS",
+    "Node",
+    "Isomorphic",
+    "Server-side"
+  ]
 }
