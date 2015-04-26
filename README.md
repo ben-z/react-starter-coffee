@@ -49,6 +49,7 @@ A simple way to start isomorphic projects with [ReactJS], [ExpressJS], and [Mong
   ```shell
   $ gulp develop # Navigate to http://localhost:3000
   ```
+  The server is restarted automatically when files change.
 
 ### Gulp Tasks
 
