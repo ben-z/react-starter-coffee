@@ -41,7 +41,7 @@ A simple way to start isomorphic projects with [ReactJS], [ExpressJS], and [Mong
 2. Clone this repo
 
   ```shell
-  $ git clone -o https://github.com/ben-z/React-Express-Starter-Template.git App
+  $ git clone -o https://github.com/ben-z/react-starter-coffee.git App
   $ cd App
   ```
 3. Start Coding

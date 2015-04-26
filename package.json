@@ -2,10 +2,10 @@
   "name": "React-Express-Starter-Template",
   "version": "0.0.1",
   "description": "Quickly start a ReactJS project with Express and server-side rendering.",
-  "repository": "https://github.com/ben-z/React-Express-Starter-Template",
-  "main": "server.js",
+  "repository": "https://github.com/ben-z/react-starter-coffee",
+  "main": "build/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node build/server.js"
   },
   "author": "Ben Zhang <http://benzhang.xyz/>",
   "license": "ISC",
