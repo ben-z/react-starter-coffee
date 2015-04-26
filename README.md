@@ -43,6 +43,7 @@ A simple way to start isomorphic projects with [ReactJS], [ExpressJS], and [Mong
   ```shell
   $ git clone -o https://github.com/ben-z/react-starter-coffee.git App
   $ cd App
+  $ npm install # Install the dependencies
   ```
 3. Start Coding
 
