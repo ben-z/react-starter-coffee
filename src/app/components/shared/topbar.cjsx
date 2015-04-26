@@ -9,7 +9,12 @@ define (require) ->
     _handleClick: ->
       alert 'hiii'
     render: ->
-      <h1 onClick={this._handleClick}>HIIII</h1>
+      <div id="top-bar">
+        <a href="#">Some Link</a>&nbsp;|&nbsp;
+        <a href="#">Some Link</a>&nbsp;|&nbsp;
+        <a href="#">Some Link</a>&nbsp;|&nbsp;
+        <button onClick={@_handleClick}>A button</button>
+      </div>
   )
 
   return TopBar

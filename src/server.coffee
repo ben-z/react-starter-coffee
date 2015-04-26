@@ -13,14 +13,7 @@ React = require 'react'
 MongoClient = require('mongodb').MongoClient
 mongo_url = env.get('MONGO_URL')
 
-# Connect to database
-MongoClient.connect mongo_url, (err, db) ->
-  return console.log err if err
-  console.log("Connected to MongoDB at "+mongo_url);
-  Initialize db
-# -------------------
-
-# Initialize server
+# The function to Initialize server
 Initialize = (db) ->
   app.use bodyParser.json(extended: false)
 
@@ -36,4 +29,15 @@ Initialize = (db) ->
   app.listen port, ->
     console.log 'Listening on http://localhost:' + port
     return
+# -------------------
+
+# Connect to database
+if mongo_url != 'DISABLED'
+  MongoClient.connect mongo_url, (err, db) ->
+    return console.log err if err
+    console.log("Connected to MongoDB at "+mongo_url);
+    Initialize db
+else
+  console.log 'MongoDB is disabled in \'.env.yml\''
+  Initialize(null)
 # -------------------
