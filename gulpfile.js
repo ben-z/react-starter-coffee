@@ -77,7 +77,7 @@ gulp.task('clean', function () {
   ]);
 });
 
-gulp.task('start_server', ['clean', 'build', 'server']);
+gulp.task('start_server', ['build', 'server']);
 
 // kill the node process on exit
 process.on('exit', function() {

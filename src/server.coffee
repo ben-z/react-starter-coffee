@@ -19,8 +19,8 @@ Initialize = (db) ->
   app.use bodyParser.json(extended: false)
 
   # serve static files
-  app.use '/js', express.static(__dirname+'/'+process.env.JS_FOLDER || 'app')
-  app.use '/css', express.static(__dirname+'/'+process.env.CSS_FOLDER || 'css')
+  app.use '/js', express.static(__dirname+'/'+(process.env.JS_FOLDER || 'app'))
+  app.use '/css', express.static(__dirname+'/'+(process.env.CSS_FOLDER || 'css'))
 
   # Routes
   app.get '/', (req, res) ->
@@ -40,6 +40,6 @@ if mongo_url != 'DISABLED'
     console.log("Connected to MongoDB at "+mongo_url);
     Initialize db
 else
-  console.log 'MongoDB is disabled in \'.env.yml\''
+  console.log 'MongoDB is disabled'
   Initialize(null)
 # -------------------
