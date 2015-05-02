@@ -8,6 +8,7 @@
   },
   "main": "build/server.js",
   "scripts": {
+    "prestart": "gulp build",
     "start": "node build/server.js"
   },
   "author": "Ben Zhang <http://benzhang.xyz/>",
