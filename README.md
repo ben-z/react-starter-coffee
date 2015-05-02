@@ -1,6 +1,8 @@
 # Express + React Starter Template (Coffeescript)
 A simple way to start isomorphic projects with [ReactJS], [ExpressJS], and [MongoDB].
 
+Ready to code? [Get started](#getting-started).
+
 ### Directory Layout
 
 ```
@@ -71,6 +73,10 @@ $ gulp <task>
 [ReactJS]: https://facebook.github.io/react/
 [ExpressJS]: http://expressjs.com/
 [MongoDB]: https://www.mongodb.org/
+
+### Contributing
+
+Have any feedbacks, feature requests, issues, or comments? Please feel free to [create an issue](https://github.com/ben-z/react-starter-coffee/issues) or [open a pull request](https://github.com/ben-z/react-starter-coffee/pulls).
 
 ### License
 ISC
