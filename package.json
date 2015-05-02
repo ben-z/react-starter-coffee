@@ -10,7 +10,7 @@
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js start_server"
   },
-  "author": "Ben Zhang <http://benzhang.xyz/>",
+  "author": "Ben Zhang <https://benzhang.xyz/>",
   "license": "ISC",
   "dependencies": {
     "amdefine": "^0.1.0",
