@@ -13,7 +13,6 @@ Ready to code? [Get started](#getting-started).
 │   |   ├── /components/        # components of the application
 │   |   └── /index.cjsx         # Entry-point / wrapper of the application
 │   ├── /scss/                  # Stylesheets, written in scss
-│   ├── /.env.yml               # Environment variables for the project
 │   └── /server.coffee          # Server-side scripts
 │── gulpfile.js                 # Configuration file for automated builds
 └── package.json                # Information about the project (Dependencies, etc.)
@@ -24,7 +23,6 @@ Ready to code? [Get started](#getting-started).
 | Source Directory| Build Directory|
 | :------------- | :------------- |
 | src/server.coffee | build/server.js |
-| src/.env.yml | build/.env.json |
 | src/app/index.cjsx | build/app/index.js |
 | src/app/components/\*\*/*.cjsx | build/app/components/\*\*/*.js |
 | src/scss/\*\*/*.scss | build/css/main.css |

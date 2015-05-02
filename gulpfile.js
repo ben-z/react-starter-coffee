@@ -2,7 +2,6 @@ var cjsx = require('gulp-cjsx');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var coffee = require('gulp-coffee');
-var yaml = require('gulp-yaml');
 var spawn = require('child_process').spawn;
 var node;
 var del = require('del');
@@ -31,14 +30,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest(buildDir+'css'));
 });
 
-// .env.yml -> .env.json
-gulp.task('env', function(){
-  gulp.src('./src/.env.yml')
-    .pipe(yaml())
-    .pipe(gulp.dest(buildDir))
-});
-
-gulp.task('build',['cjsx', 'coffee', 'sass', 'env']);
+gulp.task('build',['cjsx', 'coffee', 'sass']);
 
 // Start the server in ./build
 gulp.task('server', function() {
@@ -84,6 +76,8 @@ gulp.task('clean', function () {
     './build'
   ]);
 });
+
+gulp.task('start_server', ['clean', 'build', 'server']);
 
 // kill the node process on exit
 process.on('exit', function() {
