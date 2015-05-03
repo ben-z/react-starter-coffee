@@ -14,9 +14,9 @@ define (require) ->
         <TopBar />
         <h1>Hello, world.</h1>
         <p>This is a React starter template written in coffeescript.</p>
-        <p><small><a href="https://facebook.github.io/react/">Isomorphic</a> · <a href="http://coffeescript.org/">CoffeeScript</a> · <a href="http://gulpjs.com/">Gulp Builds</a> · <a href="https://github.com/ben-z/React-Express-Starter-Template">Beginner Friendly</a></small></p>
+        <p><small><a href="https://facebook.github.io/react/">Isomorphic</a> · <a href="http://coffeescript.org/">CoffeeScript</a> · <a href="http://gulpjs.com/">Gulp Builds</a> · <a href="https://benzhang.xyz/reactjs/isomorphic/2015/05/02/isomorphic-webapp-react-express-coffee/">Beginner Friendly</a></small></p>
         <p>Hey, I have a <a href="https://benzhang.xyz/">blog</a>!</p>
-        <p><i className="fa fa-star"></i> Star this project on <a href="https://github.com/ben-z/React-Express-Starter-Template"> Github</a></p>
+        <p><i className="fa fa-star"></i> Star this project on <a href="https://github.com/ben-z/react-starter-coffee"> Github</a></p>
       </div>
   )
 

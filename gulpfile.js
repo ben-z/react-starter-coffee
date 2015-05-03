@@ -24,13 +24,13 @@ gulp.task('coffee', function() {
     .pipe(gulp.dest(buildDir))
 });
 
-gulp.task('sass', function () {
+gulp.task('scss', function () {
   gulp.src('./src/scss/*.scss')
     .pipe(sass())
     .pipe(gulp.dest(buildDir+'css'));
 });
 
-gulp.task('build',['cjsx', 'coffee', 'sass']);
+gulp.task('build',['cjsx', 'coffee', 'scss']);
 
 // Start the server in ./build
 gulp.task('server', function() {
@@ -65,7 +65,7 @@ gulp.task('reload', function(){
 gulp.task('watch', function(){
   gulp.watch('./src/**/*.cjsx', ['cjsx','reload']);
   gulp.watch('./src/**/*.coffee', ['coffee','reload']);
-  gulp.watch('./src/scss/*.scss', ['sass']);
+  gulp.watch('./src/scss/*.scss', ['scss']);
   gulp.watch('./src/.env.yml', ['env','reload']);
 });
 

@@ -4,9 +4,9 @@ express = require 'express'
 bodyParser = require 'body-parser'
 # Create an Express object named 'app'
 app = express()
-# Port for the server
+# Port of the server
 port = process.env.PORT || 3000
-# Entry poing to our app
+# Entry point of our app
 index = require './app/index'
 # This is a ReactJS app
 React = require 'react'
@@ -29,7 +29,6 @@ Initialize = (db) ->
 
   app.listen port, ->
     console.log 'Listening on http://localhost:' + port
-    return
 # -------------------
 
 # Connect to database,
